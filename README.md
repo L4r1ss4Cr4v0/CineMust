@@ -1,4 +1,4 @@
-<h1>Acesse Aqui</h1>
+<h1>🔗Acesse Aqui</h1>
 
 <p>Esse site foi hospedado no <b>Versel</b>! Acesse por esse link:
 <br>
@@ -17,7 +17,7 @@
 
 ###
 
-<h1>Ideia do Projeto</h1>
+<h1>💡Ideia do Projeto</h1>
 
 <p>Eu sempre percebi alguns post no Pinterest e alguns Tiktoks mostrando uma lista com aqueles filmes que todos deveriam assistir. Pensando nisto eu que amo assistir filmes, principalmente os clássicos, escolhi fazer esse site de buscas com esse tema.</p>
 
@@ -27,7 +27,7 @@
 
 ###
 
-<h1>Como usar</h1>
+<h1>Como usar❓</h1>
 
 <ul>
     <li>Apenas digite um nome de filme, categoria/gênero ou uma plataforma de streaming na busca.</li>
@@ -36,7 +36,7 @@
 
 ###
 
-<h1>Linguagens Utiliadas</h1>
+<h1>🖥️Linguagens Utiliadas</h1>
 
 <ul>
     <li><br>HTML:</br> Parte estrutural (esqueleto) do site</li>
@@ -44,7 +44,7 @@
     <li><br>Javascript:</br> A parte lógica da aplicação, como o sistema de busca e o armazenamento dos dados dos filmes</li>
 </ul>
 
-<h1>Prints do Projeto</h1>
+<h1>📷Prints do Projeto</h1>
 
 <img src="/imgs_readme/pag_principal.png" alt="">
 <img src="/imgs_readme/pag_principal_drama.png" alt="">
