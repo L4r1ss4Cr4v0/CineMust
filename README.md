@@ -9,7 +9,9 @@
 
 ###
 
-<h1>CineMust</h1>
+<h1>
+    <img src="/imgs/favicon/favicon.ico" alt="">
+    CineMust</h1>
 
 <p>O CineMust foi um projeto que desenvolvi durante a Imersão dev da Alura, que ensinou o básico do HTML, CSS e JS. O foco dessa imersão foi ensinar a fazer um site de buscas, em que o usuário colocaria um nome e apareceria o resultado.</p>
 
