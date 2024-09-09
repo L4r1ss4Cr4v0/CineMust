@@ -3,9 +3,10 @@
 <p>Esse site foi hospedado no <b>Versel</b>! Acesse por esse link:
 <br>
 
-<a href="https://cinemust.vercel.app/"></a>
+<a href="https://cinemust.vercel.app/" target="_blank" >https://cinemust.vercel.app/</a>
 
 </p>
+
 ###
 
 <h1>CineMust</h1>
