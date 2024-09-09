@@ -1,0 +1,212 @@
+:root {
+    /* Declaro aqui algumas variáveis de cor, para quando quiser usar a cor, não ter que dgitar seu código HEX ou RGB */
+    --vermelho: #8B2635;
+    --cinza: #404E4D;
+    --branco: #F0EFF4;
+}
+
+body{
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    row-gap: 100px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color:var(--cinza);
+}
+
+.flex{
+    /* Declaro aqui uma classe apenas para colocar o elemento com display flex e centralizar os elemento que estão dentro deles.
+    Gosto de fazer isso, pois esses códigos são muito reutilizável durante o código */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    column-gap: 34%;
+    width: 100vw;
+    height: 10vh;
+    background-color:var(--branco);
+    color: #fff;
+}
+
+header h2{
+    font-family: "Playwrite CU", cursive;
+    letter-spacing: 20px;
+    color: var(--vermelho);
+}
+
+header div{
+    column-gap: 30px;
+}
+
+
+header button{
+    background-color:var(--cinza);
+    width: 60px;
+    height: 60px;
+}
+
+header svg{
+    fill:var(--vermelho);
+    width: 35px;
+    transition: .3s;
+}
+
+header svg:hover{
+    fill:var(--cinza);
+}
+
+h1{
+    font-family: "Playwrite CU", cursive;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 30px;
+    color:var(--branco);
+    letter-spacing: 20px;
+} 
+
+h2{
+    font-size: 2.4em;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h2, p{
+    margin: 0;
+}
+
+span{
+    font-weight: 500;
+    background-color: #000;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px;
+    width: fit-content;
+}
+
+a{
+    font-size: 1.3em;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+div img{
+    width: 20%;
+}
+
+input{
+    height: 8vh;
+    font-size: 0.7em;
+    width: 30vw;
+    border: none;
+    border-bottom: 3px solid var(--vermelho);
+    background: transparent;
+    color:var(--branco);
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    font-family: "Playwrite CU", cursive;
+    font-weight: 300;
+}
+
+
+/* estiliza o título, input de texto (busca) e botão */ #input{
+    flex-direction: column;
+    font-size: 2em;
+    row-gap: 10px;
+}
+
+#input svg{
+    height: 20px;
+    fill: #fff;
+}
+
+#input button:hover svg{
+    fill:var(--vermelho);
+}
+
+button{
+    height: 6vh;
+    width: 6vw;
+    border: none;
+    border-radius: 100px;
+    background-color:var(--vermelho);
+    color: #ffffff;
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .3s;
+    background-color: #ffffff;
+    color:var(--vermelho);
+}
+
+
+button:hover svg{
+    fill:var(--vermelho);
+}
+
+/* estiliza a section que exibe os filmes cadastrados no banco de dados*/ 
+#filmes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    overflow-y: auto;
+    height: 50vh;
+    width: 90vw;
+}
+
+/* estiliza as divs que exbibem os filmes*/ 
+#filmes > div{
+    display: flex;
+    column-gap: 30px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #e1e1e153;
+}
+
+/* Configura o efeito do cursor sob o link IMDB dos filmes*/
+
+#filmes a:hover{
+    transition: .3s;
+    color: #F5C518;
+}
+
+/* Estiliza uma div que contem o título, link IMDB, data de estreia, plataforma de streaming e categorias do filme */
+#infos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Estiliza a mini-imagem da plataforma de streaming */
+#infos img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Estiliza  uma div que contem as categorias do filme*/
+#categoria{
+    width: fit-content;
+    column-gap: 10px;
+}
+
+/* Faz o texto selecionado pelo mouse ter o fundo vermelho e letras brancas */
+::selection{
+    background-color:var(--vermelho);
+    color: #fff;
+}
+
