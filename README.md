@@ -39,13 +39,13 @@
 <h1>🖥️Linguagens Utiliadas</h1>
 
 <ul>
-    <li><br>HTML:</br> Parte estrutural (esqueleto) do site</li>
-    <li><br>CSS:</br> Parte de estilização do site</li>
-    <li><br>Javascript:</br> A parte lógica da aplicação, como o sistema de busca e o armazenamento dos dados dos filmes</li>
+    <li><b>HTML:</b> Parte estrutural (esqueleto) do site</li>
+    <li><b>CSS:</b> Parte de estilização do site</li>
+    <li><b>Javascript:</b> A parte lógica da aplicação, como o sistema de busca e o armazenamento dos dados dos filmes</li>
 </ul>
 
 <h1>📷Prints do Projeto</h1>
 
-<img src="/imgs_readme/pag_principal.png" alt="">
-<img src="/imgs_readme/pag_principal_drama.png" alt="">
-<img src="/imgs_readme/codigo.png" alt="">
+<img src="/imgs_readme/pag_principal.png" alt="Página principal">
+<img src="/imgs_readme/pag_principal_drama.png" alt="Coloque o nome, plataforma de streamig ou categoria para buscar por um filme">
+<img src="/imgs_readme/codigo.png" alt="Código dos filmes do site">
