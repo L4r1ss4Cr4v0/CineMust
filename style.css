@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    column-gap: 34%;
+    column-gap: 30vw;
     width: 100vw;
     height: 10vh;
     background-color:var(--branco);
